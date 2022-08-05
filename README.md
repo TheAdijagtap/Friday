@@ -39,27 +39,7 @@ To run this program you will require a bunch of API keys. Register your API key 
 - [OpenWeatherMap API](https://openweathermap.org/api)
 - [Wolframalpha](https://www.wolframalpha.com/)
 - [Google Calendar API](https://developers.google.com/calendar/auth)
-
-
-## Code Structure
-
-
-    ├── driver
-    ├── Jarvis              # Main folder for features 
-    │   ├── config          # Contains all secret API Keys
-    │   ├── features        # All functionalities of JARVIS 
-    │   └── utils           # GUI images
-    ├── __init__.py         # Definition of feature's functions
-    ├── gui.ui              # GUI file (in .ui format)
-    ├── main.py             # main driver program of Jarvis
-    ├── requirements.txt    # all dependencies of the program
-
-- The code structure if pretty simple. The code is completely modularized and is highly customizable
-- To add a new feature:
-  -  Make a new file in features folder, write the feature's function you want to include
-  - Add the function's definition to __init__.py
-  - Add the voice commands through which you want to invoke the function
-
+ 
 
 ## Future Improvements
 - Generalized conversations can be made possible by incorporating Natural Language Processing
